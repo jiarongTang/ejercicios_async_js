@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#name{
+    font-size: 3rem;
+    border-bottom: 3px solid black;
+}
+
+.random-image{
+    width: 30vw;
+}
